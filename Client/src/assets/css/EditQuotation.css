@@ -1,0 +1,26 @@
+.flex-container {
+  display: flex;
+  height: 35px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.flex-container__button {
+  width: 100px;
+}
+.action-container {
+  display: flex;
+  height: 35px;
+  float: right;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.action-container__button {
+  width: 130px;
+  margin-right: 20px;
+}
+.action-container__button--back {
+  width: 100px;
+}

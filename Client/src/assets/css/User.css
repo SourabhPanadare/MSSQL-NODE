@@ -1,0 +1,15 @@
+.PasswordInput .input-group-text{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 35px;
+}
+
+.PasswordInput .MuiSvgIcon-root{
+    cursor:pointer;
+}
+
+.PasswordInput .was-validated .form-control:invalid, .PasswordInput .form-control.is-invalid{
+    padding-right:1.2em !important;
+}

@@ -1,0 +1,13 @@
+/* .error {
+  border: 1px solid #ff5b5b;
+  border-radius: 5px;
+} */
+.error__span {
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+  color: #ff5b5b;
+}
+.error > div {
+  border: 1px solid #ff5b5b;
+  border-radius: 5px;
+}

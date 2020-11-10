@@ -1,0 +1,54 @@
+.react__table {
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.react__table :hover {
+  cursor: pointer;
+}
+.rowTopMargin {
+  margin-top: 30px;
+}
+.customfilterContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.drdCustomer {
+  width: 200px;
+  margin-right: 40px;
+}
+.drdSalesRep {
+  width: 200px;
+  margin-right: 40px;
+}
+.customFilerLabel {
+  margin-right: 20px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.customResetFilters {
+  margin-left: 30px;
+}
+.customfilterContainer__add {
+  float: right;
+  display: flex;
+  margin-left: auto;
+}
+@media (max-width: 760px) {
+  .customfilterContainer {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  .drdCustomer {
+    width: 320px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+  }
+  .customResetFilters {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,40 @@
+.card.card-custom {
+  box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
+  border: 0;
+}
+
+.card-header {
+  padding: 2rem 2.25rem;
+  margin-bottom: 0;
+  background-color: red;
+  border-bottom: 1px solid #ebedf3;
+}
+.numberRight {
+  text-align: right;
+}
+.flex-container .page-title {
+  font-size: 1.25rem;
+  margin: 0;
+  line-height: 75px;
+  color: #323a46;
+}
+.flex-container {
+  display: flex;
+  height: 35px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.quotation__button {
+  width: 100px;
+}
+.totals {
+  text-align: right;
+  font-weight: bold;
+  color: "#71B5F8" !important;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-style: groove;
+}
